@@ -153,12 +153,6 @@ This is the part that actually proves the database part is working, since it's c
 psql -d workout_tracker -c "SELECT * FROM workouts;"
 ```
 
-```
- id | exercise | sets | reps | weight | completed
-----+----------+------+------+--------+-----------
-  2 | Squat    |    5 |    5 |    185 | t
-```
-
 Only the Squat row is left, and it's marked completed, which matches everything the API said along the way.
 
 ## What the terminal looked like
